@@ -14,9 +14,9 @@ os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 
 # Predefined list of supported model names
 MODEL_NAMES = [
-    "llama-3.1-8b-instant",
     "openai/gpt-oss-120b",
-    "deepseek-r1-distill-llama-70b"
+    "deepseek-r1-distill-llama-70b",
+    "llama-3.1-8b-instant"
 ]
 
 # Initialise the TavilySearch tool with a specified maximum number of results.

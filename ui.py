@@ -10,9 +10,9 @@ API_URL = "https://langgraph-chatbot-agent.onrender.com/chat"
 
 # Predefined models
 MODEL_NAMES = [
-    "llama-3.1-8b-instant",
     "openai/gpt-oss-120b",
-    "deepseek-r1-distill-llama-70b"
+    "deepseek-r1-distill-llama-70b",
+    "llama-3.1-8b-instant"
 ]
 
 # Streamlit UI Elements
